@@ -1,0 +1,11 @@
+{
+  "name": "postgresql_could_do_it",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:fujimura/postgresql_could_do_it.git",
+  "author": "Daisuke Fujimura <me@fujimuradaisuke.com>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^1.1.1"
+  }
+}

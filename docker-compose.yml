@@ -1,0 +1,7 @@
+db:
+  image: mdillon/postgis:10-alpine
+  container_name: postgres-could-do-it-postgres
+  volumes:
+    - ./data:/data
+  ports:
+    - 5432:5432
