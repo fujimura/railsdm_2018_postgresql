@@ -3,6 +3,12 @@
 `watch.js`でMarkdownのファイルをpandocでスライドに変換し、それをpuppeteerでPDFでに変換している。
 
 ```
+$ yarn install
+```
+
+して
+
+```
 $ node watch.js
 ```
 
