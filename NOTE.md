@@ -50,6 +50,7 @@ http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P13.html and から東京都�
 ```
 $ unar -s ./data/P13-11_13_GML.zip -o ./data
 $ shp2pgsql -W CP932 ./data/P13-11_13_GML/P13-11_13.shp p13 | psql
+$ psql -f insert_parks.sql
 ```
 
 # 発表内で実行したSQLの実行
